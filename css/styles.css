@@ -1,0 +1,183 @@
+body {
+  font-family: "Montserrat";
+}
+h2,h3,h4{
+
+  font-weight:700!important;
+}
+
+
+
+#title {
+  background-color: #F6C244;
+  color: #ffffff;
+}
+.heading {
+  font-weight:900;
+  size: 200em;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 8%;
+  font-weight: 300;
+}
+
+.collapse {
+  /* font-family:sans-serif; */
+  font-size: 1rem;
+}
+
+/* Download button */
+.Download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image {
+  behavior: url(-ms-transform.htc);
+  /* Firefox */
+  -moz-transform: rotate(25deg);
+  /* Safari and Chrome */
+  -webkit-transform: rotate(25deg);
+  /* Opera */
+  -o-transform: rotate(25deg);
+  /* IE9 */
+  -ms-transform: rotate(25deg);
+  /* IE6,IE7 */
+  filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476);
+  /* IE8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)";
+  width: 17%;
+  /* height:80%; */
+  position: absolute;
+  right:25%;
+
+  /* z-index:-1; */
+}
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform:rotate(0);
+    width:60%;
+  }
+
+}
+
+/* Font Awesome Icon */
+.fas {
+  color: #E6B43B;
+  margin:1rem;
+}
+.fas:hover{
+  color:#F6C244;
+}
+
+/* Features */
+#features{
+  padding:7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+
+}
+.feature-box{
+  text-align: center;
+  padding:4.5%;
+  /* margin: 1rem 5rem; */
+}
+.feature-head{
+
+  font-weight:700;
+  size:1.5rem;
+
+}
+.feature-para{
+  color: #8f8f8f;
+}
+
+/* Testimonial */
+
+#testimonials{
+  /* padding:7% 15%; */
+  text-align:center;
+  background-color:#E6B43B;
+  color:#ffffff;
+
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+.carousel-item{
+  padding:7% 15%;
+
+}
+
+
+
+
+
+/* Press */
+#press{
+  text-align:center;
+  background-color:#E6B43B;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+
+
+/* Pricing */
+
+#pricing{
+  padding:10%;
+  text-align: center;
+}
+.pricing-column{
+  padding:3%;
+}
+
+
+/* Call to Action */
+#cta{
+
+  font-weight:900 !important;
+  background-color: #F6C244;
+  color: #ffffff;
+  text-align: center;
+  padding: 5% 7% 2%;
+}
+
+
+/* Footer */
+#footer{
+  text-align: center;
+  background-color: #fff;
+  padding: 2%;
+}
+.footer-icon {
+  color: #000;
+  margin:1rem;
+}
